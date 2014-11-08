@@ -1,0 +1,15 @@
+{
+    "name": "zymsys/tnpass",
+    "description": "True North PHP Password Manager",
+    "require": {
+        "slim/slim": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vic Metcalfe",
+            "email": "vic@acm.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
