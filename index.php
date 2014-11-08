@@ -12,7 +12,10 @@ $app->get('/', function() use ($app) {
 $app->post('/', function () use ($app) {
     $service = new \TrueNorth\Password\Generator();
     $app->render('password.html.twig', [
-        'secret' => $service->generate($app->request->post('site'))
+        'secret' => $service->generate(
+            $app->request->post('site'),
+            $app->request->post('unguessable')
+        )
     ]);
 });
 
