@@ -6,6 +6,11 @@
         "twig/twig": "~1.16@dev",
         "slim/views": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "TrueNorth\\Password\\": "classes/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {

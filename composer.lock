@@ -4,58 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dff4d8c1aa3a0bbedead1e38400d22d3",
+    "hash": "7823ad0f709c78dbf451273a18152064",
     "packages": [
-        {
-            "name": "slim/extras",
-            "version": "dev-master",
-            "target-dir": "Slim/Extras",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/codeguy/Slim-Extras.git",
-                "reference": "a35bc4d15a7efc5e938d8f5fea6b8382912892d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim-Extras/zipball/a35bc4d15a7efc5e938d8f5fea6b8382912892d5",
-                "reference": "a35bc4d15a7efc5e938d8f5fea6b8382912892d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "slim/slim": ">=2.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Twig_Extensions_": "Views/Extension/",
-                    "Slim\\Extras": "."
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Josh Lockhart",
-                    "email": "info@joshlockhart.com",
-                    "homepage": "http://www.joshlockhart.com/"
-                },
-                {
-                    "name": "Andrew Smith",
-                    "email": "a.smith@silentworks.co.uk"
-                }
-            ],
-            "description": "Extras package for the Slim Framework",
-            "homepage": "http://github.com/codeguy/Slim-Extras",
-            "keywords": [
-                "extensions",
-                "middleware",
-                "templating"
-            ],
-            "time": "2014-07-17 08:27:10"
-        },
         {
             "name": "slim/slim",
             "version": "dev-master",
@@ -219,7 +169,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "slim/slim": 20,
-        "slim/extras": 20,
         "twig/twig": 20,
         "slim/views": 20
     },
