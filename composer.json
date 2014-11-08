@@ -2,7 +2,9 @@
     "name": "zymsys/tnpass",
     "description": "True North PHP Password Manager",
     "require": {
-        "slim/slim": "dev-master"
+        "slim/slim": "dev-master",
+        "twig/twig": "~1.16@dev",
+        "slim/views": "dev-master"
     },
     "license": "MIT",
     "authors": [
